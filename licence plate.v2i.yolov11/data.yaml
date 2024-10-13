@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 23
+names: ['0', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'K', 'L', 'LicensePlate', 'M', 'N', 'P', 'R', 'S', 'T', 'U', 'V', 'X', 'Y', 'Z']
+
+roboflow:
+  workspace: wspatentes
+  project: licence-plate-dausq
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/wspatentes/licence-plate-dausq/dataset/2
